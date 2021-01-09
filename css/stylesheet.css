@@ -82,8 +82,8 @@ table.table-hover tr:hover {background-color:#f5f5f5;}
 .horizontal-line {
 	height:2px;
 	border-width:0;
-	color:#333;
-	background-color:#333;
+	color: rgb(251,235,219);
+	background-color: rgb(251,235,219);
 	margin: 0px;
 }
 
@@ -91,8 +91,8 @@ table.table-hover tr:hover {background-color:#f5f5f5;}
 .site-body {		
 	margin-left: auto;
 	margin-right: auto;
-	width: 960px;
-	font-family: 'Lato', sans-serif;
+	width: 960px;	
+	font-family: "Lucida Console", "Lucida Sans Typewriter";
 }
 
 /* SITE HEADER */
@@ -104,7 +104,7 @@ table.table-hover tr:hover {background-color:#f5f5f5;}
 }
 
 .site-header .header-title {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Lucida Console", "Lucida Sans Typewriter";
 	text-shadow: 2px 2px 5px #000;
 	text-outline: 10px solid #fff;
 	text-align: center;
@@ -123,9 +123,9 @@ table.table-hover tr:hover {background-color:#f5f5f5;}
 }
 
 .page-header .page-title {
-	font-family: 'Lato', Arial, Helvetica, sans-serif;
-	color: #000;
-	font-size: 40px;
+	font-family: "Lucida Console", "Lucida Sans Typewriter";
+	color: rgb(251,235,219);
+	font-size: 34px;
 	text-align:center;
 	padding: 15px;
 }
@@ -140,11 +140,10 @@ table.table-hover tr:hover {background-color:#f5f5f5;}
 	padding-left: 20px;
 	list-style-type: none;
 	overflow: hidden;
-	background-color: #343a40;
+	background-color: none;
 }
 
 .navbar li {
-	float: left;
 	size: 20px;
 }
 
@@ -153,6 +152,7 @@ table.table-hover tr:hover {background-color:#f5f5f5;}
 	color: rgba(255, 255, 255, 0.75);
 	text-align: center;
 	padding: 14px 16px;
+	text-decoration: none;
 }
 
 .navbar li a:hover:not(.active) {
@@ -191,9 +191,9 @@ table.table-hover tr:hover {background-color:#f5f5f5;}
 }
 
 .footer-title {
-	font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif;
+	font-family: "Lucida Console", "Lucida Sans Typewriter";
 	color: rgb(251,235,219);
-	font-size: 20px;
+	font-size: 16px;
 	text-align:center;
 	padding: 10px;
 }
